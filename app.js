@@ -75,9 +75,7 @@ module.exports = function () {
         //         console.log('Db connected successfully && Server started at - http://' + hostname + ':' + port);
         //     });
 
-        // var uri = 'mongodb+srv://udittehri:27oct.1995@housr0-les8h.mongodb.net/test?retryWrites=true&w=majority';
-        var uri = 'mongodb+srv://web3db:1234567890web3@cluster0.8bvu3.mongodb.net/?retryWrites=true&w=majority';
-
+        // var uri = 'mongodb+'
         const client = mongoose.connect(uri, {
             useNewUrlParser: true,
             // replicaSet: 'rs0'
